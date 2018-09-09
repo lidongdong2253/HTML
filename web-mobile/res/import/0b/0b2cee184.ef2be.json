@@ -46,8 +46,8 @@
       },
       "_scale": {
         "__type__": "cc.Vec3",
-        "x": 0.9796875,
-        "y": 0.9796875,
+        "x": 0.4973707384727599,
+        "y": 0.4973707384727599,
         "z": 1
       },
       "autoReleaseAssets": false
@@ -80,7 +80,7 @@
             "width": 1280,
             "height": 720
           },
-          "_fitHeight": false
+          "_fitWidth": true
         },
         {
           "__type__": "ae70c8zDflJ/aowXDWFe+Z0",
