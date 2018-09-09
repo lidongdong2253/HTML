@@ -177,7 +177,7 @@ window._CCSettings = {
     md5AssetsMap: {
         import: [
             "066f96f40",
-            "fff5b",
+            "3e4ff",
             "0b2cee184",
             "ef2be",
             "0de20ce79",

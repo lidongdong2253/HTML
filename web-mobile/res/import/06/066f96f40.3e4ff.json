@@ -936,8 +936,8 @@
       },
       "_scale": {
         "__type__": "cc.Vec3",
-        "x": 1,
-        "y": 1,
+        "x": 0.8295457982051632,
+        "y": 0.8295457982051632,
         "z": 1
       },
       "autoReleaseAssets": false
@@ -1068,15 +1068,6 @@
             "__uuid__": "fa85C5LgxOzrf0Z1cwyMJa"
           },
           "_sizeMode": 0
-        },
-        {
-          "__type__": "cc.Widget",
-          "node": {
-            "__id__": 4
-          },
-          "_alignFlags": 45,
-          "_originalWidth": 1280,
-          "_originalHeight": 720
         }
       ],
       "_contentSize": {

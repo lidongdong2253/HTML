@@ -25,9 +25,9 @@ window.__require = function e(t, n, r) {
   for (var o = 0; o < r.length; o++) s(r[o]);
   return s;
 }({
-  adaptation: [ function(require, module, exports) {
+  MainScene: [ function(require, module, exports) {
     "use strict";
-    cc._RF.push(module, "2e8c6rboYtErZtEDxrztcbG", "adaptation");
+    cc._RF.push(module, "2e8c6rboYtErZtEDxrztcbG", "MainScene");
     "use strict";
     cc.Class({
       extends: cc.Component,
@@ -594,4 +594,4 @@ window.__require = function e(t, n, r) {
   }, {
     init: "init"
   } ]
-}, {}, [ "init", "layer_scale_show", "https", "notice", "adaptation", "err", "event", "funcs", "uiFuncs", "loginScene", "createLayer", "joinLayer", "mainScene", "ruleLayer", "update" ]);
+}, {}, [ "init", "layer_scale_show", "https", "notice", "MainScene", "err", "event", "funcs", "uiFuncs", "loginScene", "createLayer", "joinLayer", "mainScene", "ruleLayer", "update" ]);
