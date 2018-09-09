@@ -39,12 +39,10 @@ window.__require = function e(t, n, r) {
           var visibleRectSize = cc.visibleRect.width / cc.visibleRect.height;
           var bg = cc.find("Canvas/scene_bg");
           if (designResolutionBI >= visibleRectSize) {
-            bg.height = cc.visibleRect.height;
-            cc.log("height==" + cc.visibleRect.height);
+            bg.height += 200;
             cc.log("\u8bbe\u8ba1\u5206\u8fa8\u7387\u5bbd\u9ad8\u6bd4\u5927\u4e8e\u5c4f\u5e55\u5206\u8fa8\u7387\uff0c\u9002\u914d\u9ad8\u5ea6\u907f\u514d\u9ed1\u8fb9");
           } else {
-            bg.width = cc.visibleRect.width;
-            cc.log("height==" + cc.visibleRect.width);
+            bg.width += 200;
             cc.log("\u8bbe\u8ba1\u5206\u8fa8\u7387\u5bbd\u9ad8\u6bd4\u5c0f\u4e8e\u5c4f\u5e55\u5206\u8fa8\u7387\uff0c\u9002\u914d\u5bbd\u5ea6\u907f\u514d\u9ed1\u8fb9");
           }
         }
