@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
 
-  <title>赤峰麻将</title>
+  <title>赤峰111麻将</title>
 
   <!--http://www.html5rocks.com/en/mobile/mobifying/-->
   <meta name="viewport"
@@ -47,23 +47,12 @@
       <span style="width: 0%"></span>
     </div>
   </div>
-<script src="src/settings.3699e.js" charset="utf-8"></script>
+<script src="src/settings.5448f.js" charset="utf-8"></script>
 <script src="vconsole.min.bac6b.js"></script>
-<script src="main.7e052.js" charset="utf-8"></script>
+<script src="main.64d9a.js" charset="utf-8"></script>
 
 <script type="text/javascript">
 (function () {
-    window.onorientationChange = "portrait"
-    window.addEventListener("onorientationchange" in window ? "orientationchange" : "resize", function() {
-            if (window.orientation === 180 || window.orientation === 0) { 
-                console.log("竖屏");
-                window.onorientationChange = "portrait"
-            } 
-            if (window.orientation === 90 || window.orientation === -90 ){ 
-                
-                window.onorientationChange = "landscape"
-            }  
-        }, false);
     // open web debugger console
     if (typeof VConsole !== 'undefined') {
         window.vConsole = new VConsole();
@@ -74,7 +63,7 @@
 
     var cocos2d = document.createElement('script');
     cocos2d.async = true;
-    cocos2d.src = window._CCSettings.debug ? 'cocos2d-js.39801.js' : 'cocos2d-js-min.js';
+    cocos2d.src = window._CCSettings.debug ? 'cocos2d-js.23d8c.js' : 'cocos2d-js-min.js';
 
     var engineLoaded = function () {
         document.body.removeChild(cocos2d);
