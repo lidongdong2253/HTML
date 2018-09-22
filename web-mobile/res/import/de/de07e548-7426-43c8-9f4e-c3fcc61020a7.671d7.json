@@ -1,0 +1,1 @@
+{"__type__":"cc.TextAsset","_name":"Player","text":"syntax = \"proto3\";\npackage grace.proto.msg;\n\nmessage Player {\n    uint32  id = 1;         //唯一ID  首次登录时设置为0，由服务器分配\n    string  name = 2;       //显示名字\n    uint64  enterTime = 3;  //登录时间\n}"}
