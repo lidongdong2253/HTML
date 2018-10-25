@@ -1,1 +1,0 @@
-var config={isDebug:!0,onorientationChange:"portrait",loginUrl:"http://192.168.1.118:8116"};
